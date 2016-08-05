@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--FXML for start screen that opens after intial login. Holds button for opening new offer, saved offers and settings
+screen.-->
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="welcome.WelcomeController">
+   <children>
+      <Button layoutX="70.0" layoutY="260.0" mnemonicParsing="false" onAction="#newOffer" prefHeight="120.0" prefWidth="170.0" text="Nova ponuda" />
+      <Button layoutX="290.0" layoutY="260.0" mnemonicParsing="false" onAction="#offerDatabase" prefHeight="120.0" prefWidth="170.0" text="Baza ponuda" />
+      <Button layoutX="510.0" layoutY="260.0" mnemonicParsing="false" onAction="#settings" prefHeight="120.0" prefWidth="170.0" text="Postavke" />
+      <ImageView fitHeight="99.0" fitWidth="194.0" layoutX="241.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="162.0" fitWidth="150.0" layoutX="422.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/OtherImage.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

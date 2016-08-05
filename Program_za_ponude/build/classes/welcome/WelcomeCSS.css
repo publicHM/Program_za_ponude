@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 7, 2016, 12:08:37 AM
+    Author     : Petar
+*/
+.root {
+    -fx-background-color: linear-gradient(
+        rgb(255, 255, 255) 7%, 
+        rgb(250, 253, 254) 13%,
+        rgb(244, 249, 253) 25%,
+        rgb(235, 245, 252) 50%,
+        rgb(244, 249, 253) 75%, 
+        rgb(250, 253, 254) 87%,
+        rgb(255, 255, 255) 93%);
+}
+
+.button{
+    -fx-background-color: linear-gradient(
+        rgb(128, 181, 234) 0%,
+        rgb(114, 173, 233) 7%, 
+        rgb(96, 163, 230) 13%,
+        rgb(80, 153, 226) 25%,
+        rgb(67, 146, 224) 50%,
+        rgb(80, 153, 226) 75%, 
+        rgb(96, 163, 230) 87%, 
+        rgb(114, 173, 233) 93%,
+        rgb(128, 181, 234) 99%);
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(17, 58, 104);
+    -fx-border-color: rgb(67, 166, 224);
+    -fx-border-width: 3px;
+    -fx-border-radius: 3px;
+    
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(
+        rgb(143, 212, 254) 0%,
+        rgb(156, 218, 254) 7%, 
+        rgb(138, 207, 249) 13%,
+        rgb(133, 202, 244) 25%,
+        rgb(123, 192, 234) 50%,
+        rgb(133, 202, 244) 75%, 
+        rgb(138, 207, 249) 87%, 
+        rgb(156, 218, 254) 93%,
+        rgb(143, 212, 254) 99%);
+    -fx-border-color: rgb(123, 192, 234);
+}
