@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+
+<!--FXML popup window that shows filtered list of treatments. Filtering is based on containg input text from text field.-->
+
+<VBox maxHeight="120.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newoffer.MyPopupController">
+   <children>
+      <ListView fx:id="list" onKeyPressed="#keyClicked" onMouseClicked="#mouseClicked" />
+   </children>
+</VBox>

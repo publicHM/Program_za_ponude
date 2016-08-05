@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 7, 2016, 12:08:37 AM
+    Author     : Petar
+*/
+
+.root {
+    -fx-background-color: linear-gradient(
+        rgb(255, 255, 255) 7%, 
+        rgb(250, 253, 254) 13%,
+        rgb(244, 249, 253) 25%,
+        rgb(235, 245, 252) 50%,
+        rgb(244, 249, 253) 75%, 
+        rgb(250, 253, 254) 87%,
+        rgb(255, 255, 255) 93%);
+    -fx-border-color: rgb(75, 170, 226);
+    -fx-border-width: 3px;
+}
+
+.grid-pane{
+    -fx-background-color: linear-gradient(
+        rgb(255, 255, 255) 7%, 
+        rgb(250, 253, 254) 13%,
+        rgb(244, 249, 253) 25%,
+        rgb(235, 245, 252) 50%,
+        rgb(244, 249, 253) 75%, 
+        rgb(250, 253, 254) 87%, 
+        rgb(255, 255, 255) 93%);
+}
+
+.label {
+    -fx-text-fill: rgb(17, 58, 104);
+    -fx-font-weight: bold;
+}
+
+.button{
+    -fx-background-color: linear-gradient(
+        rgb(176, 176, 176) 0%,
+        rgb(81, 176, 232) 7%, 
+        rgb(79, 174, 230) 13%,
+        rgb(77, 172, 228) 25%,
+        rgb(75, 170, 226) 50%,
+        rgb(77, 172, 228) 75%, 
+        rgb(79, 174, 230) 87%, 
+        rgb(81, 176, 232) 93%,
+        rgb(176, 176, 176) 99%);
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(17, 58, 104);
+    -fx-border-color: rgb(34, 145, 210);
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(
+        rgb(150, 150, 150) 0%,
+        rgb(143, 212, 254) 7%, 
+        rgb(138, 207, 249) 13%,
+        rgb(133, 202, 244) 25%,
+        rgb(123, 192, 234) 50%,
+        rgb(133, 202, 244) 75%, 
+        rgb(138, 207, 249) 87%, 
+        rgb(143, 212, 254) 93%,
+        rgb(150, 150, 150) 99%);
+    -fx-border-color: rgb(72, 168, 225);
+}
+
+
+.text-field {
+    -fx-border-color: rgb(75, 170, 226);
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+.text-area {
+    -fx-border-color: rgb(75, 170, 226);
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+.menu-button {
+    -fx-background-color: linear-gradient(
+        rgb(176, 176, 176) 0%,
+        rgb(81, 176, 232) 7%, 
+        rgb(79, 174, 230) 13%,
+        rgb(77, 172, 228) 25%,
+        rgb(75, 170, 226) 50%,
+        rgb(77, 172, 228) 75%, 
+        rgb(79, 174, 230) 87%, 
+        rgb(81, 176, 232) 93%,
+        rgb(176, 176, 176) 99%);
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(17, 58, 104);
+}
+
+.menu-button:hover {
+    -fx-background-color: linear-gradient(
+        rgb(150, 150, 150) 0%,
+        rgb(143, 212, 254) 7%, 
+        rgb(138, 207, 249) 13%,
+        rgb(133, 202, 244) 25%,
+        rgb(123, 192, 234) 50%,
+        rgb(133, 202, 244) 75%, 
+        rgb(138, 207, 249) 87%, 
+        rgb(143, 212, 254) 93%,
+        rgb(150, 150, 150) 99%);
+    -fx-border-color: rgb(72, 168, 225);
+}
+
+.menu-item {
+    -fx-background-color:   rgb(143, 202, 237);
+}
+
+.menu-item:hover {
+    -fx-background-color:   rgb(173, 216, 241);
+}
+
+.header {
+    -fx-font-size: 18px;
+}
+
+.table-view {
+    -fx-border-color: rgb(75, 170, 226);
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: rgb(138, 200, 236);
+}
+
+.table-view .filler {
+    -fx-background-color: rgb(138, 200, 236);
+}
+
+.menuButtonTextCollor{
+    -fx-text-fill: rgb(240, 240, 240);
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab {
+    -fx-background-color: linear-gradient(
+        rgb(176, 176, 176) 0%,
+        rgb(81, 176, 232) 7%, 
+        rgb(79, 174, 230) 13%,
+        rgb(77, 172, 228) 25%,
+        rgb(75, 170, 226) 50%,
+        rgb(77, 172, 228) 75%, 
+        rgb(79, 174, 230) 87%, 
+        rgb(81, 176, 232) 93%,
+        rgb(176, 176, 176) 99%);
+}
+
+.tab:hover {
+    -fx-background-color: linear-gradient(
+        rgb(150, 150, 150) 0%,
+        rgb(143, 212, 254) 7%, 
+        rgb(138, 207, 249) 13%,
+        rgb(133, 202, 244) 25%,
+        rgb(123, 192, 234) 50%,
+        rgb(133, 202, 244) 75%, 
+        rgb(138, 207, 249) 87%, 
+        rgb(143, 212, 254) 93%,
+        rgb(150, 150, 150) 99%);
+}
+
+.tab:selected {
+    -fx-background-color: linear-gradient(
+        rgb(150, 150, 150) 0%,
+        rgb(143, 212, 254) 7%, 
+        rgb(138, 207, 249) 13%,
+        rgb(133, 202, 244) 25%,
+        rgb(123, 192, 234) 50%,
+        rgb(133, 202, 244) 75%, 
+        rgb(138, 207, 249) 87%, 
+        rgb(143, 212, 254) 93%,
+        rgb(150, 150, 150) 99%);
+}
+
+.grid-in-pane {
+    -fx-border-color: rgb(75, 170, 226);
+    -fx-border-width: 2px;
+    -fx-border-radius: 3px;
+}
