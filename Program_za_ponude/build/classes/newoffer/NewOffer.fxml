@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<!--FXML for new offers. Provides text fields for customer data and tables for corresponding treatment data, separated to
+ different tables for each group (upper jaw, lower jaw, other and duration of treatments). Provades button to save it.-->
+
+<ScrollPane onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScroll="#closePopupOnMouseClickedOrScrolling" prefHeight="780.0" prefWidth="1290.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newoffer.NewOfferController">
+   <content>
+      <GridPane onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScroll="#closePopupOnMouseClickedOrScrolling" prefHeight="780.0" prefWidth="1270.0" styleClass="grid-pane" stylesheets="@../general/CSS.css">
+        <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="481.0" minWidth="10.0" prefWidth="330.0" />
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="336.0" minWidth="10.0" prefWidth="148.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="274.0" minWidth="10.0" prefWidth="217.0" />
+            <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="283.0" minWidth="10.0" prefWidth="200.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="230.0" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="192.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="380.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="30.0" prefHeight="70.0" valignment="TOP" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Ime i prezime:" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Adresa:" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Broj telefona:" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="E-mail:" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="nameField" onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScrollStarted="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="280.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextArea fx:id="addressArea" maxHeight="-Infinity" maxWidth="-Infinity" onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScrollStarted="#closePopupOnMouseClickedOrScrolling" prefHeight="80.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="2" />
+            <TextField fx:id="telephoneField" onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScrollStarted="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="280.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="emailField" onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScrollStarted="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="280.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="Jezik klijenta:" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Valuta klijenta:" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Tečaj:" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="exchangeRateField" maxWidth="-Infinity" onKeyPressed="#exchangeRateFieldEnterPressed" onMouseClicked="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="150.0" text="1.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="totalBeforeDiscountField" editable="false" onMouseClicked="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="totalDiscountField" editable="false" maxWidth="-Infinity" onMouseClicked="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="totalAfterDiscountField" editable="false" maxWidth="-Infinity" onMouseClicked="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </TextField>
+            <FlowPane alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <children>
+                  <Label text="Ukupno prije popusta:">
+                     <padding>
+                        <Insets right="25.0" />
+                     </padding>
+                  </Label>
+                  <TextField fx:id="currency1Field" maxWidth="40.0" onMouseClicked="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="42.0" text="HRK">
+                     <FlowPane.margin>
+                        <Insets right="15.0" />
+                     </FlowPane.margin>
+                  </TextField>
+               </children>
+            </FlowPane>
+            <FlowPane alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <children>
+                  <Label text="Popust za gotovinu:       (" />
+                  <TextField fx:id="cashDiscountPercentageField" maxWidth="40.0" onKeyPressed="#discountChanged" onMouseClicked="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="42.0">
+                     <FlowPane.margin>
+                        <Insets left="5.0" right="5.0" />
+                     </FlowPane.margin>
+                  </TextField>
+                  <Label text="\%)">
+                     <FlowPane.margin>
+                        <Insets right="15.0" />
+                     </FlowPane.margin>
+                  </Label>
+               </children>
+            </FlowPane>
+            <FlowPane alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <children>
+                  <Label text="Ukupno:" />
+                  <TextField fx:id="currency2Field" maxWidth="40.0" onMouseClicked="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="42.0" text="HRK">
+                     <FlowPane.margin>
+                        <Insets left="15.0" right="15.0" />
+                     </FlowPane.margin>
+                  </TextField>
+               </children>
+            </FlowPane>
+            <Button mnemonicParsing="false" onAction="#goBack" prefWidth="200.0" text="Nazad" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button mnemonicParsing="false" onAction="#saveData" prefWidth="200.0" text="Spremi" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </Button>
+            <MenuButton fx:id="languageButton" maxWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScrollStarted="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="150.0" text="Hrvatski" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#setDataLanguage" text="Engleski Općenito" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataLanguage" text="Engleski UK" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataLanguage" text="Hrvatski" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataLanguage" text="Njemački" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataLanguage" text="Talijanski" />
+               </items>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></MenuButton>
+            <MenuButton fx:id="databaseCurrencyButton" maxWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#closePopupOnMouseClickedOrScrolling" onScroll="#closePopupOnMouseClickedOrScrolling" prefHeight="25.0" prefWidth="150.0" text="HRK Hrvatska" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#setDataCurrency" text="HRK Hrvatska" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataCurrency" text="EUR Općenito" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataCurrency" text="EUR Njemačka" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataCurrency" text="EUR Italija" />
+                  <MenuItem mnemonicParsing="false" onAction="#setDataCurrency" text="GBP Engleska" />
+               </items>
+            </MenuButton>
+            <Button mnemonicParsing="false" onMousePressed="#changeCurrency" onScrollStarted="#closePopupOnMouseClickedOrScrolling" prefWidth="150.0" text="Konvertiraj" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets right="50.0" />
+               </GridPane.margin>
+            </Button>
+            <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" GridPane.columnSpan="6" GridPane.rowIndex="6">
+              <tabs>
+                <Tab text="Gornja čeljust">
+                     <content>
+                        <GridPane styleClass="grid-in-pane" stylesheets="@../general/CSS.css">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints maxHeight="80.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="80.0" minHeight="20.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TableView fx:id="tableUpperJaw" editable="true" onKeyPressed="#deleteRow" prefHeight="213.0" prefWidth="1100.0" GridPane.columnSpan="2" GridPane.rowIndex="2">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                              <TextField fx:id="textFieldUpperJaw" onKeyReleased="#textFieldUpperJawEvent" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets right="15.0" />
+                                 </GridPane.margin>
+                              </TextField>
+                              <Button mnemonicParsing="false" onMouseReleased="#searchUpperJaw" prefWidth="200.0" text="Pretraži" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label style="-fx-font-size: 18;" styleClass="header" stylesheets="@../general/CSS.css" text="Gornja čeljust">
+            </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" />
+                           </padding>
+                        </GridPane>
+                     </content>
+                </Tab>
+                  <Tab text="Donja čeljust">
+                     <content>
+                        <GridPane styleClass="grid-in-pane" stylesheets="@../general/CSS.css">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="80.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="80.0" minHeight="20.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" />
+                           </padding>
+                           <children>
+                              <Label styleClass="header" stylesheets="@../general/CSS.css" text="Donja čeljust" />
+                              <TextField fx:id="textFieldLowerJaw" onKeyReleased="#textFieldLowerJawEvent" prefHeight="25.0" prefWidth="392.0" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets right="15.0" />
+                                 </GridPane.margin>
+                              </TextField>
+                              <Button mnemonicParsing="false" onAction="#searchLowerJaw" prefWidth="200.0" text="Pretraži" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TableView fx:id="tableLowerJaw" editable="true" onKeyPressed="#deleteRow" prefHeight="213.0" prefWidth="1100.0" GridPane.columnSpan="2" GridPane.rowIndex="2">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Ostalo">
+                     <content>
+                        <GridPane styleClass="grid-in-pane" stylesheets="@../general/CSS.css">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="80.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="80.0" minHeight="20.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" />
+                           </padding>
+                           <children>
+                              <Label styleClass="header" stylesheets="@../general/CSS.css" text="Ostalo" />
+                              <TextField fx:id="textFieldOther" onKeyReleased="#textFieldOtherEvent" prefHeight="25.0" prefWidth="392.0" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets right="15.0" />
+                                 </GridPane.margin>
+                              </TextField>
+                              <Button mnemonicParsing="false" onAction="#searchOther" prefWidth="200.0" text="Pretraži" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TableView fx:id="tableOther" editable="true" onKeyPressed="#deleteRow" prefHeight="213.0" prefWidth="1100.0" GridPane.columnSpan="2" GridPane.rowIndex="2">
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Trajanje tretmana">
+                    <content>
+                        <GridPane prefHeight="203.0" prefWidth="1170.0" styleClass="grid-in-pane" stylesheets="@../general/CSS.css">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="120.0" minHeight="30.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" />
+                           </padding>
+                           <children>
+                              <Label styleClass="header" stylesheets="@../general/CSS.css" text="Trajanje tretmana">
+            </Label>
+                              <TableView fx:id="tableDuraton" editable="true" prefHeight="213.0" prefWidth="1100.0" GridPane.columnSpan="6" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets />
+                                 </GridPane.margin>
+                                 <columnResizePolicy>
+                                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                                 </columnResizePolicy>
+                              </TableView>
+                           </children>
+                        </GridPane>
+                    </content>
+                  </Tab>
+              </tabs>
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
+               </GridPane.margin>
+            </TabPane>
+            <Label style="-fx-font-size: 18;" styleClass="header" stylesheets="@../general/CSS.css" text="Nova ponuda" GridPane.columnIndex="2" />
+            <Button mnemonicParsing="false" onAction="#saveAsXLS" prefWidth="200.0" text="Spremi kao Excel" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>
