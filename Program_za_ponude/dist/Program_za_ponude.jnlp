@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Program_za_ponude.jnlp">
+  <information>
+    <title>Program_za_ponude</title>
+    <vendor>Petar</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Program_za_ponude.jar" size="269537" download="eager" />
+    <jar href="lib\commons-codec-1.10.jar" size="284184" download="eager" />
+    <jar href="lib\derby.jar" size="3104883" download="eager" />
+    <jar href="lib\poi-3.14-20160307.jar" size="2528204" download="eager" />
+    <jar href="lib\poi-ooxml-3.14-20160307.jar" size="1286511" download="eager" />
+    <jar href="lib\poi-ooxml-schemas-3.14-20160307.jar" size="5919795" download="eager" />
+    <jar href="lib\xmlbeans-2.6.0.jar" size="2730866" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Program_za_ponude" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="start.StartApplication"  name="Program_za_ponude" />
+  <update check="always"/>
+</jnlp>
