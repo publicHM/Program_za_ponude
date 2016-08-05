@@ -1,0 +1,117 @@
+1;Implantat NOBEL biocare/Straumann/Astra Tech;Placement of an Straumann/Astra Tech/Nobel Biocare implant;Straumann/Astra Tech/Nobel Biocare implant placement;Implantat Straumann/Astra Tech/Nobel Biocare;Impianto osseo Straumann/Astra Tech/Nobel Biocare;5600;0;750;0;550;;750;;750;0
+2;Suprastruktura  NOBEL biocare/Straumann/Astra Tech;Abutment Straumann/Astra Tech/Nobel Biocare;Straumann/Astra Tech/Nobel Biocare abutment;Suprastruktur Straumann/Astra Tech/Nobel Biocare;Sovrastruttura in titanio Straumann/Astra Tech/Nobel Biocare;1500;0;200;0;150;;200;;200;0
+3;Implantat NOBEL active;Placement Nobel Active;Nobel Active implant placement;;;6000;0;800;0;580;;;;;0
+4;Multiunit abutment  NOBEL biocare/Straumann/Astra Tech;Multiunit abutment Straumann/Astra Tech/Nobel Biocare;;Multiunit abutment Straumann/Astra Tech/Nobel Biocare;Multiunit abutment Straumann/Astra Tech/Nobel Biocare;1500;0;200;0;;;200;;200;0
+5;Implantat Neodent ;Placement of an Neodent implant;Neodent implant placement;Implantat Neodent;Impianto osseo Neodent;4200;0;550;0;405;;550;;550;0
+6;Suprastruktura Neodent ;Abutment Neodent;Abutment Neodent;Suprastruktur Neodent;Sovrastruttura in titanio Neodent;1300;0;170;0;115;;170;;170;0
+7;Implantat Alpha bio;Placement of an Alpha Bio implant;Alpha Bio implant placement;Implantat Alpha Bio;Impianto osseo Alpha Bio;3800;0;500;0;370;;500;;500;0
+8;Suprastruktura Alpha bio;Abutment Alpha Bio;Abutment Alpha Bio;Suprastruktur Alpha Bio;Sovrastruttura in titanio Alpha Bio;1200;0;160;0;112;;160;;160;0
+9;Privremena suprastruktura na vijak;;;;Sovrastruttura provvisoria (a vite);950;0;;0;;;;;140;0
+10;Suprastruktura u cirkonu;Zirconia abutment;Zirconia abutment;Suprastruktur aus Zirkon;Sovrastruttura in zirconio ;2600;0;350;0;260;;350;;350;0
+11;Ekstrakcija zuba;Simple extraction;Simple extraction;Zahnextraktion;Estrazione semplice ;300;0;40;0;30;;40;;40;0
+12;Ekstrakcija zuba komplicirana;Complicated extraction;;Komplizierte Zahnextraktion;Estrazione complessa;650;0;90;0;;;90;;90;0
+13;Ekstrakcija implantata;Implant extraction;Implant extraction;Implantatextraktion  ;Estrazione dell'impianto esistente;1500;0;200;0;150;;200;;200;0
+14;Ekstrakcija implantata komplicirana;Implant extraction (complicated);Implant extraction (complicated);Komplizierte Implantatextraktion;Estrazione dell'impianto esistente complessa;3400;0;460;0;340;;460;;460;0
+15;Ekstrakcija nadogradnje;Extraction of fiber post core build up;Extraction of fiber post core build up;;Estrazione del perno;1000;0;150;0;95;;;;150;0
+16;Apikotomija;Apicoectomy ;Apicoectomy ;Apikotomie;Apicetomia;1100;0;150;0;110;;150;;150;0
+17;Alveotomija;Alveotomy;Alveotomy;Alveolektomie;Alveotomia;1700;0;230;0;170;;230;;230;0
+18;Hemisekcija;Surgical extraction;Surgical extraction;Hemisektion;Estrazione chirurgica;1100;0;200;0;70;;80;;200;0
+19;Cistektomija ;Cystectomy;Cystectomy;Zystektomie;Cistectomia;2000;0;270;0;200;;270;;270;0
+20;Ginkivektomija (po zubu);;;;;450;0;;0;;;;;;0
+21;Sinus lift mali (unutarnji);Internal maxillary sinus floor elevation;Internal maxillary sinus floor elevation;Interner Sinuslift (kleiner);Interno rialzamento seno mascellare;3000;0;400;0;290;;400;;400;0
+22;Sinus lift veliki (vanjski);External maxillary sinus floor elevation;External maxillary sinus floor elevation and bone augmentation;Externer Sinuslift (groﬂer);Esterno rialzamento seno mascellare ed aumentazione ossea ;6000;0;800;0;590;;800;;800;0
+23;Kost za augmentaciju po alveoli;Bone augmentation;Bone augmentation;Knochenaufbau (Knochenaugmentation);Aumentazione ossea;1500;0;200;0;150;;200;;200;0
+24;Klinicko produzenje zuba;Crown lengthening;Crown lengthening;;Allungamento clinico della corona;1000;0;140;0;100;;;;140;0
+25;Resorptivna membrana;;Resorptive membrane;;Membrana riassorbibile;1700;0;;0;170;;;;230;0
+26;Resorptivna membrana s pinovima;;Resorptive membrane with pins;;Membrana riassorbibile con i pin;2500;0;;0;255;;;;330;0
+27;Kompozitni ispun jednoplosni;Composite filling (single surface);Composite filling (single surface);Kompositfullung eine Flache;Otturazione estetica in composito una superficie;280;0;40;0;30;;40;;40;0
+28;Kompozitni ispun dvoplosni;Composite filling (two surfaces);Composite filling (two surfaces);Kompositfullung zwei Flachen;Otturazione estetica in composito due superfici;330;0;55;0;40;;55;;55;0
+29;Kompozitni ispun troplosni;Composite filling (three surfaces);Composite filling (three surfaces);;Otturazione estetica in composito tre superfici;400;0;60;0;45;;;;60;0
+30;Kompozitni ispun viseplosni;;Composite filling (more surfaces);Kompositfullung mehrere Flachen;Otturazione estetica in composito piu superfici;500;0;30;0;50;;60;;65;0
+31;Pecatni ispun;;;Dentinadhasive Fullung;Otturazione sigillante;200;0;;0;;;30;;30;0
+32;Visokoestetski ispun;Highly aesthetic filling;Highly aesthetic filling;Hochasthetische†Kompositfullung   ;Otturazione di alta estetica in composito ;600;0;80;0;60;;80;;80;0
+33;Free hand bonding;Free hand bonding;Free hand bonding;Free hand bonding;Free hand bonding;1000;0;130;0;95;;130;;130;0
+34;Lijecenje zuba - 1 kanal ;Root canal treatment - 1 canal;Root canal treatment - 1 canal;Wurzelkanalbehandlung - 1 Kanal;Cura canalare;350;0;50;0;40;;50;;50;0
+35;Lijecenje zuba - 2 kanala;Root canal treatment - 2 canals;Root canal treatment - 2 canals;Wurzelkanalbehandlung - 2 Kanale;Cura bicanalare;600;0;80;0;60;;80;;80;0
+36;Lijecenje zuba - 3 kanala;Root canal treatment - 3 canals;Root canal treatment - 3 canals;Wurzelkanalbehandlung - 3 Kanale;Cura tricanalare;900;0;120;0;90;;120;;120;0
+37;Revizija zuba - 1 kanal;Endodontic retreatment - 1 canal ;Endodontic retreatment - 1 canal ;Endodontische Revisionsbehandlung - 1 Kanale;Revisione della cura - 1 canale;450;0;60;0;45;;70;;60;0
+38;Revizija zuba - 2 kanala;Endodontic retreatment - 2 canals;Endodontic retreatment - 2 canals;Endodontische Revisionsbehandlung - 2 Kanale;Revisione della cura - 2 canali;650;0;90;0;70;;90;;90;0
+39;Revizija zuba - 3 kanala;Endodontic retreatment - 3 canals;Endodontic retreatment - 3 canals;Endodontische Revisionsbehandlung - 3 Kanale;Revisione della cura - 3 canali;950;0;130;0;100;;135;;130;0
+40;Endoantisepticki ulozak;Premedication for root canal treatment;Premedication for root canal treatment;;;100;0;15;0;10;;;;;0
+41;Keramicka kruna na wirron metalu ;Ceramic crown on wirron metal;Ceramic crown on wirron metal;Wirronium Metallkeramikkrone  (nickelfrei);Corona wirron metallo-ceramica (senza nichel);1400;0;250;0;180;;250;;250;0
+42;Metal-keramicka kruna na implantatu;Metal ceramic crown on implant;Metal ceramic crown on implant;Wirronium Metallkeramikkrone auf Implantat;Corona wirron metallo-ceramica su impianto;1600;0;280;0;200;;280;;280;0
+43;Keramicka kruna na wirron metalu na vijak;;;Implantat-Krone mit Schraube;Corona wirron metallo-ceramica a vite;1850;0;;0;;;300;;300;0
+44;Keramicka kruna na wirron metalu s keramickim rubom;Ceramic crown on wirron metal with ceramic border;Ceramic crown on wirron metal with ceramic border;;Corona in metallo-ceramica con bordo in ceramica ;1600;0;280;0;200;;;;280;0
+45;Keramicka bezmetalna CAD-CAM kruna ;;;;;1850;0;;0;;;;;;0
+46;Keramicka kruna na cirkonu;Zirconia ceramic crown;Zirconia ceramic crown;Vollkeramikkrone aus Zirkon;Corona in zirconio-ceramica;2600;0;350;0;260;;350;;350;0
+47;Cirkon-keramicka kruna na implantatu;Zirconia ceramic crown on implant;Zirconia ceramic crown on implant;Vollkeramikkrone aus Zirkon auf Implantat;Corona in zirconio-ceramica su impianto;2800;0;380;0;280;;380;;380;0
+48;Cirkon-keramicka kruna na vijak;;Screw-retained zirconia ceramic crown;;Corona in zirconio-ceramica a vite;2800;0;;0;280;;;;380;0
+49;Bezmetalna keramicka kruna(e.max);Metal free crown (e.max);Metal free crown (e.max);Vollkeramikkrone (e.max);Corona in ceramica (e.max);2600;0;350;0;260;;350;;350;0
+50;Keramicka kruna na bijelom zlatu;Ceramic crown on white gold;Ceramic crown on white gold;Weiﬂgold mit Keramikverblendung /individuelle Betreuung;Corona in oro bianco-ceramica;3750;0;420;0;390;;500;;500;0
+51;Kruna na bijelom zlatu;;;;;1850;0;;0;;;;;;0
+52;Keramicka kruna na titanu /individualni pristup;Ceramic crown on titanium;Ceramic crown on titanium;Titan mit Keramikverblendung;Corona in titanio-ceramica;1950;0;260;0;190;;260;;260;0
+53;Keramicka kruna na frez metalu/individualni pristup;;;;Corona in wirron metallo-ceramica/approccio individuale;2100;0;;0;;;;;250;0
+54;Keramicka ljuska (veneer)/individualni pristup;Ceramic veneer;Ceramic veneer;Verblendschale (Veneer);Faccetta  in ceramica (veneer);2600;0;350;0;260;;350;;350;0
+55;Nadogradnja kompozitna;Fiber post core build up;Fiber post core build up;;Perno (zirconio);650;0;90;0;70;;;;90;0
+56;Inlay kompozitni;Inlay (composite);Inlay (composite);Kompositinlay;Inlay in composito;1500;0;200;0;150;;200;;200;0
+57;Inlay keramicki;Inlay (ceramic);Inlay (ceramic);Keramikinlay;Inlay in ceramica   ;1700;0;230;0;170;;230;;230;0
+58;Wax up;Wax Up;Wax Up;Wax up;Wax up;1950;0;260;0;190;;260;;260;0
+59;Mock up (kompozitni);Mock Up (in composite);Mock Up (in composite);Mock up (Komposit);Mock up (in composito);2450;0;330;0;235;;330;;330;0
+60;Dugotrajni provizorij (kompozit);Temporary teeth in composite;Temporary crown on composite;Langzeitprovisorium  (Komposit);Denti provvisori in composito;450;0;60;0;40;;60;;60;0
+61;Dugotrajni provizorij (kompozit CAD CAM);;Temporary crown CAD CAM;;Denti provvisori in composito CAD CAM;700;0;;0;70;;;;95;0
+62;Dugotrajni provizorij (kompozit na metalu);Temporary crown on wirron metal;Temporary crown on wirron metal;Langzeitprovisorium (Komposit mit Metall);Denti provvisori in metallo-composito di alta qualita';650;0;90;0;60;;90;;90;0
+63;Eg shell dugotrajni provizorij;;;Eierschalenprovisorium;Eg shell provvisori;350;0;;0;;;50;;50;0
+64;Privremeni zubi;Temporary teeth;Temporary teeth;Provisorische Zahne;Denti provvisori;200;0;25;100;20;100;25;100;25;100
+65;Totalna proteza (akrilat);Complete denture (acrylic);Complete denture (acrylic);Totalprothese (Kunststoff);Protesi mobile totale per arcata (acrilato);3750;0;500;0;370;0;500;0;500;0
+66;Parcijalna proteza (akrilat);Partial denture (acrylic);Partial denture (acrylic);Teilprothese (Kunststoff);Protesi parziale per arcata (acrilato);3750;0;500;0;370;0;500;0;500;0
+67;Totalna proteza (wirron);Complete denture (wirron);Complete denture (wirron);Totalprothese (Wirronium);Protesi mobile totale per arcata (wirron);6000;0;800;0;590;0;800;0;800;0
+68;Parcijalna proteza (wirron);Partial denture (wirron);Partial denture (wirron);Teilprothese (Wirronium);Protesi parziale per arcata (wirron);6000;0;800;0;590;0;800;0;800;0
+69;MK1 proteza;;;;;4000;0;;0;;0;;0;;0
+70;Parcijalna proteza do 3 zuba;;;;;400;0;;0;;0;;0;;0
+71;Imedijatna proteza;Immediate denture;Immediate denture;Provisorische prothese;Protesi provvisoria in resina per arcata;2600;0;350;0;260;0;350;0;350;0
+72;Totalna proteza (bez nepcane ploce) - '' Toronto bridge'';Complete denture 'Toronto bridge';Complete denture 'Toronto bridge';Totalprothese (gaumenfrei) - 'Toronto bridge';Protesi wirron senza palato -'Toronto bridge';6000;0;600;0;570;0;800;0;800;0
+73;Precka;Dental bar;Dental bar;Steg;Barra;1850;0;250;0;185;0;250;0;250;0
+74;Etecmen;Attachment;Attachment;;Attacco;1500;0;200;0;150;0;;0;200;0
+75;Reparatura proteze;Denture adjustments;Denture adjustment;Prothesen-Reparatur;Riparazione della protesi ;200;0;25;0;20;0;25;0;25;0
+76;Reparatura proteze - komplicirana;Denture adjustments (complicated);Denture adjustment (complicated);Prothesen-Reparatur (kompliziert);Riparazione della protesi complessa;600;0;50;0;60;0;50;0;80;0
+77;Lokator;Locator;Locator;Locator;Attacco Locator;3650;0;490;0;350;0;490;0;490;0
+78;Teleskop;;;Teleskop;Telescopio;1850;0;;0;;0;250;0;250;0
+79;Ortopan;Panoramic X-Ray;Panoramic X-Ray;Orthopantomogramm;Ortopantomografia;200;0;30;100;25;100;30;;30;100
+80;Rvg;Rvg;Rvg;Rvg;Ortopantomografia intraorale   ;50;0;10;100;7;100;10;;10;100
+81;CT snimak segmenta;Dental scan (CT) - both jaws;Dental scan (CT) - both jaws;CT 3D Segment;TAC entrambe le arcate;350;0;90;0;65;0;45;;90;0
+82;CT snimak jedne celjusti;Dental scan (CT) - one jaw;Dental scan (CT) - one jaw;CT 3D ein Kiefer;TAC per arcata;450;0;60;0;45;0;60;;60;0
+83;CT snimak obje celjusti;Dental scan (CT) - one segment;Dental scan (CT) - one segment;CT 3D beide Kiefer;TAC per segmento;700;0;45;0;35;0;90;;45;0
+84;Ginkivektomija (po zubu);Gingivectomy (per tooth);Gingivectomy (per tooth);Gingivektomie (pro Zahn);Gengivectomia (per dente);450;0;60;0;45;0;60;;60;0
+85;Ciscenje kamenca  po celjusti;;Tartar removal (per jaw);;;150;0;;0;20;0;;;;0
+86;ciscenje kamenca s pjeskarenjem po celjusti;Tartar removal with sanding;Tartar removal with sanding per jaw;Zahnsteinentfernung mit Sandstrahlen pro Kiefer;Ablazione tartaro con sabbiatura per arcata;200;0;30;0;20;0;30;;30;0
+87;Paro priprema komplicirana (root planing and scalling);Root planing and scaling (complicated);Root planing and scaling (complicated);Scaling und Wurzelglattung;Trattamento parodontologico per arcata;3500;0;450;0;340;0;450;;450;0
+88;Penicilin;;Penicillin;Penicillin;Penicillina;600;0;;0;70;0;85;;85;0
+89;Izbjeljivanje ZOOM  lampom za izbjeljivanje / obje celjust;ZOOM lamp whitening / both jaws;ZOOM lamp whitening / both jaws;Zahnaufhellung mit der ZOOM Lampe / beide Kiefer;Sbiancameto denti con la lampada ZOOM 3;2500;0;330;0;244;0;330;;330;0
+90;Izbjeljivanje ZOOM  lampom za izbjeljivanje / jedna celjust;ZOOM lamp whitening / one jaw;ZOOM lamp whitening / one jaw;Zahnaufhellung mit der ZOOM Lampe / ein Kiefer;Sbiancameto denti con la lampada ZOOM 3 per arcata;1250;0;165;0;122;0;165;;165;0
+91;Izbjeljivanje udlagama;Teeth whitening 'night-white' with bite / per jaw;;Zahnaufhellung mittels Schiene / ein Kiefer;Sbiancameto denti 'night-white' con bite / per arcata;650;0;90;0;;0;90;;90;0
+92;Unutarnje izbjeljivanje po zubu;Intraoral stabilizer whitening;Intraoral stabilizer whitening;Zahnaufhellung pro Zahn;Interno sbiancamento del dente;500;0;60;0;45;0;60;;60;0
+93;Splint;Splint per jaw;Splint per jaw;Schiene;Splintaggio per arcata;1100;0;150;0;110;0;150;;150;0
+94;Udlaga  relaksacijska;;Bite RELAX;Relaxationsschiene;Bite RELAX;1400;0;200;0;150;0;200;;200;0
+95;Udlaga zastitna;;Bite;Schutzschiene;Bite;800;0;100;0;80;0;100;;100;0
+96;Prvi posjet i konzultacije;First visit and consultation;;;Prima visita e consulenza;;0;0;100;75;100;;;100;100
+97;Lokalna anestezija;Local Anesthesia;;;Anestesia locale e condotta;;0;0;100;20;100;;;30;100
+98;Nobel implantat (4);Placement of an Nobel Biocare implant (4);Nobel implant placement (4);Implantat Nobel (4);Impianto osseo Nobel (4);5600;0;750;0;550;0;750;0;750;0
+99;Nobel privremeni abutment (4);;Nobel temporary abutment (4);Suprastruktur Nobel (4);Sovrastruttura provvisoria Nobel (4);350;0;45;0;35;0;45;0;45;0
+100;Privremena proteza bez nepca na vijak (1);Wiron dentures without palatine support (1);Wiron dentures without palatine support  (1);Festsitzender provisorischer Zahnersatz ohne Gaumen  (1);Protesi provvisoria senza palato a vite (1);4500;0;600;0;445;0;600;0;600;0
+101;Nobel multi unit (4);Multiunit abutment Nobel Biocare (4);Multiunit abutment Nobel Biocare (4);Nobel Multiunit (4);Nobel multi unit (4);1500;0;200;0;150;0;200;0;200;0
+102;BIO HPP ili titanska frezana konstrukcija (4);BIO HPP construction (4);BIO HPP or titanium milled construction (4);Gefraste Konstruktion aus Bio HPP oder Titanium (4);Struttura fresata in Bio HPP o titanio (4);20000;0;2600;0;1950;0;2600;0;2600;0
+103;Kompozitni zubi slojevani (1);Layered composite crowns (1);Layered composite crowns (1);Kompositkronen (1);Corone in composito (1);7500;0;1000;0;700;0;1000;0;1000;0
+104;Nobel implantat (5);;Nobel implant placement (5);;Impianto osseo Nobel (5);5600;0;;0;550;0;;0;750;0
+105;Nobel privremeni abutment (5);;Nobel temporary abutment (5);;Sovrastruttura provvisoria Nobel (5);350;0;;0;35;0;;0;45;0
+106;Nobel multi unit (5);;Multiunit abutment Nobel Biocare (5);;Nobel multi unit (5);1500;0;;0;150;0;;0;200;0
+107;BIO HPP ili titanska frezana konstrukcija (5);;BIO HPP or titanium milled construction (5);;Struttura fresata in Bio HPP o titanio (5);22500;0;;0;2150;0;;0;3000;0
+108;Nobel implantat (6);;Nobel implant placement (6);;Impianto osseo Nobel (6);5600;0;;0;550;0;;0;750;0
+109;Nobel privremeni abutment (6);;Nobel temporary abutment (6);;Sovrastruttura provvisoria Nobel (6);350;0;;0;35;0;;0;45;0
+110;Nobel multi unit (6);;Multiunit abutment Nobel Biocare (6);;Nobel multi unit (6);1500;0;;0;150;0;;0;200;0
+111;BIO HPP ili titanska frezana konstrukcija (6);;BIO HPP or titanium milled construction (6);;Struttura fresata in Bio HPP o titanio (6);25000;0;;0;2400;0;;0;3300;0
+112;Keramicke krune na implant konstrukciji (1);;Ceramic crowns (1);;Corone in ceramica (1);12000;0;;0;1100;0;;0;1600;0
+113;Nobel privremeni abutment (6);;Nobel temporary abutment (6);;Sovrastruttura provvisoria Nobel (6);350;0;;0;35;0;;0;45;0
+114;BIO HPP ili titanska frezana konstrukcija (1);;BIO HPP or titanium milled construction (1);;Struttura fresata in Bio HPP o titanio (1);25000;0;;0;2400;0;;0;3300;0
+115;Keramicke krune na implant konstrukciji (6);;Ceramic crowns (6);;Corone in ceramica (6);12000;0;;0;1100;0;;0;1600;0
+116;Toronto bridge (1);;Toronto bridge (1);;Toronto bridge (1);20000;0;;0;1900;0;;0;2600;0
+117;Nobel privremeni abutment (6);;Nobel privremeni abutment (6);;Sovrastruttura provvisoria Nobel (6);1500;0;;0;35;0;;0;200;0
