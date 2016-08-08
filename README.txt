@@ -1,6 +1,6 @@
 @author Petar Deveric 
 
-Dokument "Program_za_ponude" sadrzi kod program
+Dokument "Program_za_ponude" sadrzi kod programa.
 
 Dokument "Database" sadrzi bazu podataka koju je potrebno kopirati bilo gdje na racunalu,
 a u pokrenutom programu je potrebno prvo otici u postavke i postaviti adresu baze
